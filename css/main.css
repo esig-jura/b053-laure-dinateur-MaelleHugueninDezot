@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 h1,
 h2,
@@ -123,7 +123,6 @@ header nav li:first-of-type{
     display:none;
 }
 
-
 /******************************************
                 Pied-de-page
 ******************************************/
@@ -148,4 +147,45 @@ footer ul img{
 
 footer ul img:hover{
     filter: grayscale(0);
+}
+
+/******************************************
+                Page Information
+******************************************/
+.page-infos h1{
+    text-align: center;
+}
+
+.page-infos img {
+    max-width: 200px;
+    display: block;
+    margin : 0 auto;
+    border-radius: 50%;
+}
+
+/******************************************
+                Page Contact
+******************************************/
+.page-contact{
+
+}
+.page-contact .infos-contact ul li{
+    list-style-type: none;
+    background-size: 20px 20px;
+}
+
+.page-contact .infos-contact .phone{
+    list-style-image: url(../img/phone.png);
+}
+
+.page-contact .infos-contact .mail{
+    list-style-image: url(../img/mail.png);
+}
+
+.page-contact .infos-contact .twitter{
+    list-style-image: url(../img/twitter.png);
+}
+
+.page-contact .infos-contact .facebook{
+    list-style-image: url(../img/facebook.png);
 }
