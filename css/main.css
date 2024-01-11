@@ -122,9 +122,8 @@ header nav a:hover,
 header nav a.actif{
     color: #2ec4b6;
 }
-
-header nav li:first-of-type{
-    display:none;
+header .accueil{
+    display: none;
 }
 
 /******************************************
@@ -170,9 +169,6 @@ footer ul img:hover{
 /******************************************
                 Page Contact
 ******************************************/
-.page-contact{
-
-}
 .page-contact .infos-contact ul li{
     list-style-type: none;
     background-repeat: no-repeat;
@@ -202,5 +198,24 @@ footer ul img:hover{
 /******************************************
                 Page Accueil
 ******************************************/
+.page-index .realisations{
+    display: inline-block;
+}
+
+.page-index .realisations li{
+    margin:2.5%;
+    padding :10px;
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+.page-index .realisations img{
+
+}
 
 
+
+
+/******************************************
+                Responsive
+******************************************/
